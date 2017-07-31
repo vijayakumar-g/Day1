@@ -13,6 +13,13 @@ int main()
 
     // Displays sum      
     printf("%d + %d = %d", a,b,c);
+	c=a-b;
+	printf("%d",c);
+	c=a/b;
+	printf("%d",c);
+	c=a*b;
+	printf("%d",c);
+
 
     return 0;
 }
